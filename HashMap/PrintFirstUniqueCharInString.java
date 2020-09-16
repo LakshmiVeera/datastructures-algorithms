@@ -1,4 +1,5 @@
-package com.lakshmi.java;
+package HashMap;
+
 import java.util.*;
 
 class PrintFirstUniqueCharInString {
