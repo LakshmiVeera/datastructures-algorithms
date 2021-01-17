@@ -1,7 +1,7 @@
 package SlidingWindow;
 
 /**
- * Return the max sum of sub string of length k in the given string
+ * Return the max sum of a sub array of length k
  */
 public class FindMaxSum {
 
