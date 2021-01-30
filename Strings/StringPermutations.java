@@ -6,7 +6,6 @@ package Strings;
  */
 
 public class StringPermutations {
-
     static void printPermutations(String str, String ans)
     {
         // If string is empty
@@ -14,7 +13,6 @@ public class StringPermutations {
             System.out.print(ans + " ");
             return;
         }
-
         for (int i = 0; i < str.length(); i++) {
             char ch = str.charAt(i);
 
