@@ -1,7 +1,7 @@
 package Caching;
 import java.util.*;
 /**
- * Design a data structure for LRU Cache
+ * Design a data structure for LRU Cache using LinkedHashMap
  */
 class LRULinkedHashMap extends LinkedHashMap<Integer, Integer>{
     private int capacity;
