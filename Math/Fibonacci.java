@@ -5,6 +5,7 @@ import java.util.Map;
 
 // Find the nth value in the fibonacci series  1 1 2 3 5 8 13
 public class Fibonacci {
+
     // Declare the map cache for Dynamic Programming
     Map<Integer, Integer> cache = new HashMap<>();
 
@@ -22,6 +23,7 @@ public class Fibonacci {
         if (n <= 1) {
             return n;
         }
+
         // If the required fib value is there in the cache, return it
         if (cache.containsKey(n)) {
             return cache.get(n);
@@ -33,7 +35,6 @@ public class Fibonacci {
 
         return fibVal;
     }
-
 
     public static void main(String... args) {
         int n = 1000;
